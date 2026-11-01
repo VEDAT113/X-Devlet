@@ -84,7 +84,7 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
 <body>
 <header>
   <div class="logo"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"><rect x="5" y="5" width="54" height="54" rx="16"/><path d="M22 22 L42 42 M42 22 L22 42"/></svg>x<b>-</b>Devlet</div>
-  <div class="tag" id="tagTxt">Demo sürümü · Veriler yalnızca bu sayfada kalır</div>
+  <div class="tag" id="tagTxt">Gerçek sürüm · Veriler SupaBase'ye Aktarılır</div>
   <nav class="nav hidden" id="nav">
     <button class="navb on" id="nCard">Kimlik</button>
     <button class="navb" id="nSet">Hesap ayarları</button>
@@ -107,8 +107,8 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
     </form>
 
     <form id="regForm" class="hidden" novalidate>
-      <label for="r-id">Kimlik numarası (12 hane)</label><input id="r-id" inputmode="numeric" maxlength="12">
-      <div class="hint">Bilerek 12 hane: gerçek numara (11 hane) olarak geçmez.</div>
+      <label for="r-id">Kimlik numarası (11 hane)</label><input id="r-id" inputmode="numeric" maxlength="12">
+      <div class="hint">11 haneli Tc</div>
       <div class="row">
         <div><label for="r-ad">Ad</label><input id="r-ad"></div>
         <div><label for="r-soyad">Soyad</label><input id="r-soyad"></div>
@@ -129,7 +129,7 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
   <section class="panel">
     <div class="who"><span id="whoName"></span><a id="logout">Çıkış</a></div>
     <h2>Kimlik bilgileri</h2>
-    <label for="tc">Kimlik numarası (12 hane)</label><input id="tc" inputmode="numeric" maxlength="12">
+    <label for="tc">Kimlik numarası (11 hane)</label><input id="tc" inputmode="numeric" maxlength="12">
     <div class="row">
       <div><label for="ad">Ad</label><input id="ad"></div>
       <div><label for="soyad">Soyad</label><input id="soyad"></div>
@@ -161,7 +161,7 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
       <div class="card" id="card">
         <div class="face front">
           <div class="head">
-            <div class="t"><b>KİMLİK KARTI</b><i>IDENTITY CARD · DEMO</i></div>
+            <div class="t"><b>KİMLİK KARTI</b><i>IDENTITY CARD</i></div>
             <div class="chip"></div>
           </div>
           <div class="body">
@@ -181,11 +181,11 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
             </div>
           </div>
           <div class="ghost" id="ghost"></div>
-          <div class="wm"><span>SAHTEDİR</span></div>
+          <div class="wm"><span>X-DEVLET</span></div>
         </div>
 
         <div class="face back">
-          <div class="head"><div class="t"><b>ARKA YÜZ</b><i>REVERSE · DEMO</i></div></div>
+          <div class="head"><div class="t"><b>ARKA YÜZ</b><i>REVERSE</i></div></div>
           <div style="margin-top:3%;position:relative">
             <div class="row" style="gap:4%">
               <div class="f"><small>Anne Adı / Mother's Name</small><div id="v-anne"></div></div>
@@ -197,11 +197,11 @@ button.danger{background:transparent;color:#ccc;border:1px solid #444}
             </div>
           </div>
           <div class="mrz" id="mrz"></div>
-          <div class="wm"><span>SAHTEDİR</span></div>
+          <div class="wm"><span>X-DEVLET</span></div>
         </div>
       </div>
     </div>
-    <p class="note">Bu bir demodur. “SAHTEDİR” yazısı karta sabitlenmiştir, kimlik numarası 12 hanelidir ve kartta resmî amblem yoktur; gerçek bir belge yerine geçmez.</p>
+    <p class="note">Bu bir demo değildir bilgileriniz güvence altındadır bize gelmemektedir</p>
   </section>
 </main>
 
